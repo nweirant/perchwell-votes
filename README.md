@@ -1,6 +1,9 @@
 # Perchwell Full Stack App 
 A full stack web app to vote for your favorite guitar player.
 
+![Screen Shot 2023-11-06 at 1 15 11 PM](https://github.com/nweirant/perchwell-votes/assets/34401822/91bfcce4-4a64-432f-be60-bbf1fda43517)
+
+
 ## Dependencies
 Other versions not tested.
 1. Rails 7.1
