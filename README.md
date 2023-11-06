@@ -11,7 +11,7 @@ Other versions not tested.
 3. Sqlite3 3.37
 4. Node 14.17
 
- ## Backend Setup
+ ## Back-end Setup
  1. Install dependencies. In the ```/back-end``` directory, run ```bundle install```
  2. Setup Database. In the ```/back-end``` directory, run ```rails db:migrate```
  3. Seed Database. In the ```/back-end``` directory, run ```rails db:seed```
