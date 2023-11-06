@@ -14,7 +14,7 @@ function App() {
       (error) => {
         console.log(error);
       }
-    );
+    )
   }, []);
 
   return (
@@ -22,7 +22,7 @@ function App() {
       <table>
         <thead>
           <tr>
-            <th>Client</th>
+            <th>Client^</th>
             <th>Num Requests</th>
           </tr>
         </thead>
@@ -63,8 +63,7 @@ function Client({clientId, clientName, voteCount}) {
   return (
   <tr key={clientId}>
     <td> {clientName} </td>
-    <td> {votes} </td>
-    <td><button onClick={(e) => increment(e, clientId)}>Increment</button></td>
+    <td className="votes"> {votes} <button onClick={(e) => increment(e, clientId)}>Increment</button></td>
   </tr>
   )
 }
