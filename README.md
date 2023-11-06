@@ -15,10 +15,10 @@ Other versions not tested.
  4. Start Rails Server. In the ```/back-end``` directory, run ```rails server``` on a new terminal
  5. This will start a server on ```localhost:5000```
 
- ## Frontend Setup
+ ## Front-end Setup
  1. Install dependencies. In the ```/front-end``` directory, run ```npm install```
- 2. Start front end. In the ```/front-end``` directory, run ```npm start``` on a new terminal
- 3. This will run the frontend on ```localhost:3000```
+ 2. Start front-end. In the ```/front-end``` directory, run ```npm start``` on a new terminal
+ 3. This will run the front-end on ```localhost:3000```
 
   ## APIs
   Base API url: ```localhost:5000```
